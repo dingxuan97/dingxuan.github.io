@@ -1,6 +1,6 @@
 var time = 2000;//milliseconds
 var index = 0;
-var container = $("#container");
+var container = document.getElementById("container");
 var childrenCount = $(".section").length;
 function slideToNext() {
 
