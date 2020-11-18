@@ -10,6 +10,4 @@ function slideToNext() {
         marginLeft: -1 * index * 100 + "%"
     })
 }
-var pt = window.setInterval(function() {
-    slideToNext();
-}, time)
+var pt = window.setInterval(function(){slideToNext(); }, time);
