@@ -1,7 +1,7 @@
 var time = 2000;//milliseconds
 var index = 0;
-var container = document.getElementById("container");
-var childrenCount = document.getElementsByClassName(".section").length;
+var container = $("#container");
+var childrenCount = $(".section").length;
 function slideToNext() {
 
     index = (index + 1) % childrenCount;
