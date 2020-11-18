@@ -3,7 +3,7 @@ var index = 0;
 var container = $("#container");
 var childrenCount = $(".section").length;
 function slideToNext() {
-
+    console.log(childrenCount);
     index = (index + 1) % childrenCount;
     console.log(index);
     container.css({
