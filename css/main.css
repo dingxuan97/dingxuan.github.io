@@ -32,6 +32,19 @@ header img {
   max-width: 150px;
 }
 
+.title {
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
 a {
   color: #1C9C94;
   text-decoration: none;
