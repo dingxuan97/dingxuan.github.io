@@ -86,6 +86,7 @@ a:hover {
 }
 
 .card {
+  position: relative;
   width: 33.3333%;
   padding-left: 15px;
   padding-right: 15px;
