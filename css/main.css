@@ -54,6 +54,7 @@ a:hover {
 }
 
 .section {
+    padding: 5%;
     width: 33.3333%;
     float: left;
     height: 200px;
@@ -63,9 +64,16 @@ a:hover {
 #section_red {background: red;}
 #section_green {background: green;}
 
+.wrapper {
+  padding-left: 30px;
+  padding-right: 30px;  
+}
+
 .card {
-    width: 33.3333%;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+  width: 33.3333%;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
     
