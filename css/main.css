@@ -65,9 +65,9 @@ a:hover {
     height: 300px;
 }
 
-#section_blue {background: blue;}
-#section_red {background: red;}
-#section_green {background: green;}
+#featured_1 {background: blue;}
+#featured_2 {background: red;}
+#featured_3 {background: green;}
 
 .wrapper {
   padding-left: 30px;
