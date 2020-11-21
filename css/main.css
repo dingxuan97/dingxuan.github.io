@@ -1,4 +1,47 @@
-html, body {margin: 0;padding: 0;overflow-x: hidden;}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+a {
+  color: #1C9C94;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  text-align:right;
+}
 
 #container {
     width: 300%;
