@@ -40,6 +40,10 @@ article {
   padding:0 1em;
 }
 
+.about {
+  height: 200px;
+}
+
 h1 {
   text-transform: uppercase;
   margin: 1em 0;
