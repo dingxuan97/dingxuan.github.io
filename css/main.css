@@ -81,7 +81,7 @@ a:hover {
 #featured_3 {background: green;}
 
 .wrapper {
-  width: 90%;
+  margin: 15px;
   padding-left: 30px;
   padding-right: 30px;  
 }
