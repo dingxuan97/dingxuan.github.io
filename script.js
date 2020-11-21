@@ -4,7 +4,8 @@ var container = $("#container");
 var childrenCount = $(".section").length;
 function slideToNext() {
     var childrenCount = $(".section").length;
-    console.log($(".section").length);
+    var time = 2000;//milliseconds
+    var container = $("#container");
     index = (index + 1) % childrenCount;
     console.log(index);
     container.css({
