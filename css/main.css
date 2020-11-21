@@ -4,10 +4,10 @@ html, body {margin: 0;padding: 0;overflow-x: hidden;}
     width: 300%;
     overflow: hidden;
     -webkit-transition: margin-left 500ms ease-in-out;
-        -moz-transition: margin-left 500ms ease-in-out;
-        -o-transition: margin-left 500ms ease-in-out;
-        -ms-transition: margin-left 500ms ease-in-out;
-        transition: margin-left 500ms ease-in-out;
+    -moz-transition: margin-left 500ms ease-in-out;
+    -o-transition: margin-left 500ms ease-in-out;
+    -ms-transition: margin-left 500ms ease-in-out;
+    transition: margin-left 500ms ease-in-out;
 }
 
 .section {
@@ -19,3 +19,10 @@ html, body {margin: 0;padding: 0;overflow-x: hidden;}
 #section_blue {background: blue;}
 #section_red {background: red;}
 #section_green {background: green;}
+
+.card {
+    width: 33.3333%;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+    
