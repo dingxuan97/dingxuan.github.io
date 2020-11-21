@@ -81,13 +81,14 @@ a:hover {
 #featured_3 {background: green;}
 
 .wrapper {
+  width: 90%;
   padding-left: 30px;
   padding-right: 30px;  
 }
 
 .card {
   position: relative;
-  width: 33.3333%;
+  width: 30%;
   padding-left: 15px;
   padding-right: 15px;
   -webkit-flex-wrap: wrap;
