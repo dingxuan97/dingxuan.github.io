@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+main {
+  max-width: 1140px;
+}
+
 body {
   margin: 0;
   font-family: 'Raleway';
@@ -54,10 +58,10 @@ a:hover {
 }
 
 .section {
-    padding: 5%;
-    width: 33.3333%;
+    border: 15px solid white
+    width: 350px;
     float: left;
-    height: 200px;
+    height: 300px;
 }
 
 #section_blue {background: blue;}
