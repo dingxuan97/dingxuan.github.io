@@ -36,6 +36,10 @@ header img {
   text-align: center;
 }
 
+article {
+  padding:0 1em;
+}
+
 h1 {
   text-transform: uppercase;
   margin: 1em 0;
