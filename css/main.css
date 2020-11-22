@@ -90,6 +90,7 @@ a:hover {
 
 .wrapper {
   margin: 0 -5px;
+  width: 80%;
 }
 
 /* Clear floats after the columns */
