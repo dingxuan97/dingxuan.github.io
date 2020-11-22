@@ -89,10 +89,14 @@ a:hover {
 #featured_3 {background: green;}
 
 .wrapper {
-  margin: 15px;
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.wrapper:after {
+  content: "";
   display: table;
-  padding-left: 30px;
-  padding-right: 30px;  
+  clear: both;
 }
 
 .card {
