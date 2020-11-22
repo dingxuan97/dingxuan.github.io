@@ -95,11 +95,13 @@ a:hover {
 }
 
 /* Clear floats after the columns */
+/*
 .wrapper:after {
   content: "";
   display: table;
   clear: both;
 }
+*/
 
 .card {
   float: left;
