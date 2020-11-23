@@ -32,8 +32,21 @@ header img {
   max-width: 150px;
 }
 
+.header-title {
+  text-transform: uppercase;
+  margin: 1em 0;
+  font-size: 44px;
+}
+
+.header-sub {
+  text-transform: uppercase;
+  margin: 2em 0;
+  font-size: 30px;
+}
+
 .title {
   text-align: center;
+  text-transform: uppercase;
 }
 
 article {
@@ -41,17 +54,8 @@ article {
 }
 
 .about {
-  height: 200px;
+  height: 400px;
   width: 80%;
-}
-
-h1 {
-  text-transform: uppercase;
-  margin: 1em 0;
-}
-
-h3 {
-  text-transform: uppercase;
 }
 
 a {
