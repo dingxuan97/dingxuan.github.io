@@ -110,4 +110,12 @@ a:hover {
   outline: 1px solid blue;
   border-radius: 20px;
 }
+
+.col {
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  padding-left:15px;
+  padding-right:15px;
+}
     
