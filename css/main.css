@@ -146,6 +146,13 @@ a:hover {
   width:100%;
 }
 
+/* Clear floats after image containers */
+.wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .blog-thumbnail-container {
     overflow: hidden;
     margin-bottom: 30px;
@@ -163,6 +170,7 @@ a:hover {
 }
 
 .card {
+  float:left;
   height: 100%; 
   width: 33.3333%;
   position:relative;
