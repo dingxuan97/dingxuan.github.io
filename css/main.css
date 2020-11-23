@@ -139,11 +139,9 @@ a:hover {
 #featured_3 {background: green;}
 
 .wrapper {
-  margin: 0 -10px;
-  padding-left:100px;
-  padding-right:100px;
   height: auto;
-  width:100%;
+  max-width: 1140px;
+  padding: 0 50px;
 }
 
 /* Clear floats after image containers */
@@ -168,7 +166,7 @@ a:hover {
 .card {
   float:left;
   height: 100%; 
-  width: 33.3333%;
+  width: 28%;
   position:relative;
   display:flex;
   flex-direction:column;
