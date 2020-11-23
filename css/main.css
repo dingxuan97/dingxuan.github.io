@@ -80,7 +80,8 @@ article {
 
 .about {
   height: 400px;
-  width: 80%;
+  width: 100%;
+  padding-left: 150px;
 }
 
 a {
