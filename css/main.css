@@ -18,9 +18,7 @@ header {
   text-align: center;
   background-size: cover;
   height:400px;
-  background-image: url("../img/background.jpg");
-  background: #1abc9c;
-  
+  background-image: url("../img/background.jpg");  
 }
 
 header section {
