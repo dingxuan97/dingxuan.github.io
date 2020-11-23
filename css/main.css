@@ -151,6 +151,8 @@ a:hover {
   content: "";
   clear: both;
   display: table;
+  flex-direction:row;
+  flex-flow: row wrap;
 }
 
 .blog-thumbnail-container {
@@ -222,7 +224,7 @@ footer {
     display: block;
   }
 
-  .header .title .section .container .card {
+  .header .title .section #container .card .about .{
     max-width: 100%;
   }
 
