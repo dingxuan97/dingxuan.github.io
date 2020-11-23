@@ -112,6 +112,7 @@ a:hover {
 }
 
 .col {
+  height: 100px; 
   width: 33.3333%;
   position:relative;
   display:flex;
