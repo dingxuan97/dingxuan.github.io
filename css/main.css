@@ -19,7 +19,6 @@ header {
   background-size: cover;
   height:auto;
   background-image: url("../img/background.jpg");
-  background-position: fixed;
 }
 
 header section {
