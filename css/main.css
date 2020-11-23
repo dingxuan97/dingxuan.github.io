@@ -44,18 +44,19 @@ header img {
   text-align:left;
   padding-left:15%;
   text-transform: uppercase;
-  margin: 2em 0;
   font-size: 30px;
   color: whitesmoke; 
 }
 
 .header-links {
   text-align:left;
+  padding-left:15%;
+  color:whitesmoke;
 }
 
 .fab {
   border: 1px solid white;
-  border-radius: 50%;
+  border-radius: 30%;
   font-size: 1.5em;
   width: 1.5em;
   height: 1.5em;
