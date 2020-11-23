@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 main {
-  max-width: 1140px;
-  width:100%;
+  max-width: 1980px;
 }
 
 body {
@@ -15,9 +14,7 @@ body {
 }
 
 header {
-  max-width: 1140px;
-  width:100%;
-  padding: 2em;
+  max-width:1980px;
   text-align: center;
   background-size: cover;
   height:auto;
