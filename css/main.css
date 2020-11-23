@@ -92,6 +92,8 @@ a:hover {
 .wrapper {
   margin: 0 -5px;
   display: flex;
+  padding-left:100px;
+  padding-right:100px;
 }
 
 /* Clear floats after the columns */
@@ -112,6 +114,7 @@ a:hover {
 }
 
 .col {
+  width: 33.3333%;
   position:relative;
   display:flex;
   flex-direction:column;
