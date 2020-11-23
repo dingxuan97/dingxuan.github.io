@@ -27,14 +27,19 @@ header section {
   max-width: 640px;
 }
 
+/*
 header img {
   border-radius: 50%;
   max-width: 150px;
 }
+*/
+
+.header{
+  padding-left:10%;
+}
 
 .header-title {
   text-align:left;
-  padding-left:15%;
   text-transform: uppercase;
   margin: 1em 0;
   font-size: 44px;
@@ -43,7 +48,6 @@ header img {
 
 .header-sub {
   text-align:left;
-  padding-left:15%;
   text-transform: uppercase;
   font-size: 30px;
   color: whitesmoke; 
@@ -51,7 +55,6 @@ header img {
 
 .header-links {
   text-align:left;
-  padding-left:15%;
   color:whitesmoke;
 }
 
