@@ -193,4 +193,35 @@ a:hover {
   font-family:sans-serif;
 }
 
+footer {
+ padding: 1em 1.5em;
+ background: #A7B8BF;
+ color: white;
+ text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
 
