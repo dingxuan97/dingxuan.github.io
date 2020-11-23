@@ -91,6 +91,7 @@ a:hover {
 
 .wrapper {
   margin: 0 -5px;
+  display: flex;
 }
 
 /* Clear floats after the columns */
