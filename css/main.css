@@ -192,7 +192,11 @@ a:hover {
   border: 1px solid black;
   border-radius: 5px;
   text-align:center;
+  font-size: 14px;
+  display:inline-block;
+  padding: 0 10px;
   font-family:sans-serif;
+  margin: 5px 0px 5px 5px;
 }
 
 footer {
