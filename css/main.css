@@ -92,10 +92,21 @@ a:hover {
   opacity: 0.5;
 }
 
-/* Add a black background color to the top navigation */
+/* Add a top navigation */
 .topnav {
   overflow: hidden;
   text-align:right;
+}
+
+.nav-button{
+  margin:1em;
+  color:whitesmoke;
+  font-family:revert;
+}
+
+.nav-button.home{
+  padding-right:650px;
+  background-image: url("../img/favicon.ico");
 }
 
 #container {
