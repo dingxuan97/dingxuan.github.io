@@ -104,21 +104,13 @@ a:hover {
 }
 */
 
-.card {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-  outline: 1px solid black;
-  border-radius: 20px;
-}
-
 .col {
   width: 33.3333%;
   position:relative;
   display:flex;
   flex-direction:column;
   padding: 0 20px;
-  outline: 1px solid black;
+  border-color: #8d8d8d;
   border-radius: 20px;
 }
     
