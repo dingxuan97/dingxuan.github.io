@@ -101,18 +101,15 @@ a:hover {
 .topnav {
   overflow: hidden;
   text-align:right;
+  padding: 10px 10px;
 }
 
 .nav-button{
-  margin:1em;
+  padding:0px 10px;
   color:whitesmoke;
   font-family:revert;
 }
 
-.nav-button.home{
-  padding-right:650px;
-  background-image: url("../img/fitzy_logo.png");
-}
 
 #container {
     width: 300%;
