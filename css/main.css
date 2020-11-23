@@ -17,7 +17,7 @@ header {
   padding: 2em;
   text-align: center;
   background-size: cover;
-  height:400px;
+  height:auto;
   background-image: url("../img/background.jpg");
   background-position: fixed;
 }
@@ -229,8 +229,19 @@ footer {
     font-size: 15px;
   }
   
+  .about{
+    width:auto;
+    padding:10px;
+    text-align:center;
+  }
+  
   .card {
-    display: block;
+    width:100%;
+    max-width:100%;
+  }
+
+  #container{
+    width:300%;
   }
 
   .header .title .section #container .card .about .{
