@@ -37,6 +37,7 @@ header img {
   text-transform: uppercase;
   margin: 1em 0;
   font-size: 44px;
+  color: whitesmoke; 
 }
 
 .header-sub {
@@ -45,6 +46,7 @@ header img {
   text-transform: uppercase;
   margin: 2em 0;
   font-size: 30px;
+  color: whitesmoke; 
 }
 
 .title {
