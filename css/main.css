@@ -2,6 +2,7 @@
 
 main {
   max-width: 1140px;
+  width:100%;
 }
 
 body {
@@ -14,6 +15,8 @@ body {
 }
 
 header {
+  max-width: 1140px;
+  width:100%;
   padding: 2em;
   text-align: center;
   background-size: cover;
@@ -83,8 +86,7 @@ article {
 }
 
 .about {
-  height: 400px;
-  width: 100%;
+  height: auto;
   padding-left: 150px;
 }
 
