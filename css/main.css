@@ -49,6 +49,25 @@ header img {
   color: whitesmoke; 
 }
 
+.header-links {
+  text-align:left;
+}
+
+.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .fab {
+  color: white;
+}
+
 .title {
   text-align: center;
   text-transform: uppercase;
