@@ -163,7 +163,7 @@ a:hover {
 }
 
 .card {
-  height: 100px; 
+  height: 100%; 
   width: 33.3333%;
   position:relative;
   display:flex;
