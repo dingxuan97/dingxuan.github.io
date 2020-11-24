@@ -189,6 +189,7 @@ a:hover {
 
 .info-block {
   padding: 0 10px;
+  min-height: 300px;
 }
 
 .text-block {
