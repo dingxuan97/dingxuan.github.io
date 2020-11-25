@@ -193,6 +193,7 @@ a:hover {
   display:block;
   height:200px;
   width:auto;
+  margin:auto;
 }
 
 .blog-thumbnail-container:hover {
