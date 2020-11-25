@@ -263,18 +263,45 @@ footer {
     font-size: 15px;
   }
   
+  /* About */
   .about{
     width:auto;
     padding:10px;
     text-align:center;
   }
-  
-  .card {
+  .about-info {
+    text-align:center;
     width:auto;
-    margin-bottom:10px;
-    padding:10px;
+  }
+  .about-pic img{
+    width:100%; 
+    margin:auto;
   }
 
+  /* CARD */
+  .card img {
+    width:100%;
+    height:auto;
+  }
+
+  .info-block {
+    width:100%;
+    height:auto;
+  }
+  
+  .card {
+    width:100%;
+    margin-bottom:10px;
+    padding:10px;
+    height:auto;
+  }
+  
+  .text-block {
+    font-size:10px;
+    margin:1%;
+  }
+  
+  /* Featured */
   #container{
     width:300%;
   }
@@ -283,11 +310,6 @@ footer {
     max-width: 100%;
   }
   
-  .text-block {
-    font-size:10px;
-    margin:1%;
-  }
-
   footer {
     text-align: center;
   }
