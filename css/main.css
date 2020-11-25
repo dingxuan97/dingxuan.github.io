@@ -75,6 +75,7 @@ a .fab {
 }
 
 .title {
+  padding-top: 10px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -99,6 +100,7 @@ article {
 .about img {
   border-radius: 50%;
   max-width: 300px;
+  margin-left:15%;
 }
 
 .about-info {
