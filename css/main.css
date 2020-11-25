@@ -88,6 +88,12 @@ article {
   padding-left: 150px;
 }
 
+.about img {
+  padding_left:70%;
+  border-radius: 50%;
+  max-width: 150px;
+}
+
 a {
   color: #1C9C94;
   text-decoration: none;
