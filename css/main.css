@@ -86,12 +86,30 @@ article {
 .about {
   height: auto;
   padding-left: 150px;
+  position:relative;
+  flex-direction:column;
+}
+
+.about:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .about img {
-  padding_left:70%;
   border-radius: 50%;
-  max-width: 150px;
+  max-width: 300px;
+}
+
+.about-info {
+  width:60%;
+  position:relative;
+  flex-direction:column;
+  float:left;
+
+}
+.about-pic {
+  float:left;
 }
 
 a {
