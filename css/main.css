@@ -298,6 +298,9 @@ footer {
 
   .info-block {
     height:auto;
+    overflow:hidden;
+    min-height:100px;
+    padding:3%;
   }
   
   .text-block {
