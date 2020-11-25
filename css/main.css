@@ -278,27 +278,30 @@ footer {
     margin:auto;
   }
 
-  /* CARD */
+  /* MY WORKS */
+  .wrapper {
+    width:auto;
+    padding:0px;
+    margin:0px;
+  }
+  
+  .card {
+    width:100%;
+    margin-bottom:10px;
+    height:auto;
+  }
+  
   .card img {
     width:100%;
     height:auto;
   }
 
   .info-block {
-    width:100%;
-    height:auto;
-  }
-  
-  .card {
-    width:100%;
-    margin-bottom:10px;
-    padding:10px;
     height:auto;
   }
   
   .text-block {
     font-size:10px;
-    margin:1%;
   }
   
   /* Featured */
