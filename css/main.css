@@ -13,6 +13,21 @@ body {
   padding: 0;
 }
 
+/* Add a top navigation */
+.topnav {
+  overflow: hidden;
+  text-align:right;
+  padding: 10px 10px;
+}
+
+.nav-button{
+  padding:0px 10px;
+  color:whitesmoke;
+  font-family:revert;
+}
+
+/* HEADER */
+
 header {
   max-width:1980px;
   padding-bottom:5%;
@@ -42,20 +57,21 @@ header img {
   text-align:left;
   text-transform: uppercase;
   margin: 1em 0;
-  font-size: 44px;
+  font-size: 4vw;
   color: whitesmoke; 
 }
 
 .header-sub {
   text-align:left;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 2vw;
   color: whitesmoke; 
 }
 
 .header-links {
   text-align:left;
   color:whitesmoke;
+  font-size: 1vw;
 }
 
 .fab {
@@ -78,11 +94,10 @@ a .fab {
   padding-top: 10px;
   text-align: center;
   text-transform: uppercase;
+  font-size: 2vw;
 }
 
-article {
-  padding:0 1em;
-}
+/* ABOUT */
 
 .about {
   height: auto;
@@ -124,19 +139,7 @@ a:hover {
   opacity: 0.5;
 }
 
-/* Add a top navigation */
-.topnav {
-  overflow: hidden;
-  text-align:right;
-  padding: 10px 10px;
-}
-
-.nav-button{
-  padding:0px 10px;
-  color:whitesmoke;
-  font-family:revert;
-}
-
+/* FEATURED PROJECTS CONTAINER */
 
 #container {
     width: 300%;
@@ -166,6 +169,9 @@ a:hover {
 }
 #featured_2 {background: red;}
 #featured_3 {background: green;}
+
+
+/* MY WORKS WRAPPER */
 
 .wrapper {
   height: auto;
