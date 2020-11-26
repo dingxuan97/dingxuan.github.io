@@ -265,6 +265,10 @@ footer {
 
 @media only screen and (max-width: 576px) {
   
+  .title {
+    font-size:5vw;
+  }
+  
   .topnav {
     font-size:2vh;
   }
