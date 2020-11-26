@@ -13,6 +13,19 @@ body {
   padding: 0;
 }
 
+p {
+  line-height: 1.5em;   /* within paragraph */
+  margin-bottom: 1em; /* between paragraphs */
+  }
+
+br {
+    display: block;
+    margin-bottom: 1em;
+    font-size:1em;
+    line-height: 0;
+    content:"";
+}
+
 /* Add a top navigation */
 .topnav {
   overflow: hidden;
@@ -232,7 +245,7 @@ a:hover {
 .info-block {
   padding: 0 10px;
   min-height: 300px;
-  font-size:15vw;
+  font-size:2vw;
 }
 
 .text-block {
@@ -254,12 +267,20 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  .course {
-    display: block;
+  
+  .title {
+    font-size:3vw;
+  }
+  .header-links {
+    font-size:1.5vw;
+  }
+  .about {
+    padding-left:10%;
   }
 
-  .course .title, .course .descrition {
-    max-width: 100%;
+  .card {
+    height:70vw;
+    overflow:hidden;
   }
 }
 
