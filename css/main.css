@@ -13,6 +13,10 @@ body {
   padding: 0;
 }
 
+h4 {
+  line-height: 1em;
+}
+
 p {
   line-height: 1.5em;   /* within paragraph */
   margin-bottom: 1em; /* between paragraphs */
@@ -138,8 +142,9 @@ a .fab {
   position:relative;
   flex-direction:column;
   float:left;
-
+  font-size:2vw;
 }
+
 .about-pic {
   width:40%;
   float:right;
@@ -224,7 +229,7 @@ a:hover {
 
 .card {
   float:left;
-  height: 40vw;
+  height: 55vw;
   width: 33%;
   position:relative;
   display:flex;
@@ -243,18 +248,18 @@ a:hover {
 }
 
 .info-block {
-  padding: 0 10px;
+  padding:1em;
   min-height: 300px;
   font-size:2vw;
 }
 
 .text-block {
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 1em;
   text-align:center;
-  font-size: 14px;
+  font-size: 1.5vw;
   display:inline-block;
-  padding: 0 10px;
+  padding: 0.5em;
   font-family:sans-serif;
   margin: 5px 0px 5px 5px;
 }
@@ -264,6 +269,7 @@ footer {
  background: #A7B8BF;
  color: white;
  text-align: right;
+ font-size:1.5vw;
 }
 
 @media only screen and (max-width: 768px) {
