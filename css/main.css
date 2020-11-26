@@ -301,11 +301,15 @@ footer {
   }
   
   .header-title {
-    font-size: 30px;
+    font-size: 10vw;
   }
   
   .header-sub {
-    font-size: 15px;
+    font-size: 5vw;
+  }
+
+  .header-links {
+    font-size:5vw;
   }
   
   /* About */
