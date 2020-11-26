@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 main {
-  max-width: 1980px;
+  max-width: 100%;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 /* HEADER */
 
 header {
-  max-width:1980px;
+  max-width:100%;
   padding-bottom:5%;
   text-align: center;
   background-size: cover;
@@ -71,7 +71,7 @@ header img {
 .header-links {
   text-align:left;
   color:whitesmoke;
-  font-size: 1vw;
+  font-size:3vh;
 }
 
 .fab {
@@ -94,7 +94,7 @@ a .fab {
   padding-top: 10px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size:4vh;
 }
 
 /* ABOUT */
@@ -104,6 +104,7 @@ a .fab {
   padding-left: 150px;
   position:relative;
   flex-direction:column;
+  margin-bottom:5%;
 }
 
 .about:after {
@@ -175,7 +176,7 @@ a:hover {
 
 .wrapper {
   height: auto;
-  max-width: 1980px;
+  max-width: 100%;
   padding: 0 50px;
 }
 
@@ -209,7 +210,7 @@ a:hover {
 
 .card {
   float:left;
-  height: 450px;
+  height: 40vw;
   width: 33%;
   position:relative;
   display:flex;
@@ -218,7 +219,7 @@ a:hover {
 
 .card img {
   display:block;
-  height:200px;
+  height:15vw;
   width:auto;
   margin:auto;
 }
@@ -230,6 +231,7 @@ a:hover {
 .info-block {
   padding: 0 10px;
   min-height: 300px;
+  font-size:15vw;
 }
 
 .text-block {
@@ -279,6 +281,7 @@ footer {
   .about-info {
     text-align:center;
     width:auto;
+    font-size:5vw;
   }
   .about-pic {
     width:100%; 
@@ -310,6 +313,7 @@ footer {
     overflow:hidden;
     min-height:100px;
     padding:3%;
+    font-size:5vw;
   }
   
   .text-block {
